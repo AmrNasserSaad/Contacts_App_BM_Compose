@@ -42,6 +42,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.contactsapp.data.DataSource
 import com.example.contactsapp.model.Contacts
+import com.example.contactsapp.presention.ContactsList
+import com.example.contactsapp.presention.openDialer
 import com.example.contactsapp.ui.theme.ContactsAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -92,61 +94,4 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Composable
-fun ContactsList(contacts: List<Contacts>) {
-    LazyVerticalGrid(
-        columns = GridCells.Fixed(3),
-        modifier = Modifier.padding(top = 100.dp)
-    ) {
-        items(contacts) { contact ->
-            ContactsAppListItem(contact = contact)
-        }
-    }
-}
 
-@Composable
-fun ContactsAppListItem(contact: Contacts, modifier: Modifier = Modifier) {
-    val context = LocalContext.current
-    Column(
-        verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally,
-    ) {
-        Image(
-            painter = painterResource(id = contact.picture),
-            contentDescription = "contact photo",
-            modifier = modifier
-                .size(128.dp)
-                .clickable {
-                    val phoneNumber = context.getString(contact.phone)
-                    openDialer(context, phoneNumber)
-                },
-            contentScale = ContentScale.Crop
-        )
-        Text(
-            text = stringResource(id = contact.name),
-            modifier = modifier
-                .fillMaxWidth()
-                .clickable {
-                    val phoneNumber = context.getString(contact.phone)
-                    openDialer(context, phoneNumber)
-                },
-            textAlign = TextAlign.Center
-        )
-        SelectionContainer {
-            Text(text = stringResource(id = contact.phone))
-        }
-    }
-}
-
-fun openDialer(context: Context, phoneNumber: String) {
-    val intent = Intent(Intent.ACTION_DIAL).apply {
-        data = Uri.parse("tel:$phoneNumber")
-    }
-    context.startActivity(intent)
-}
-
-@Preview(showBackground = true)
-@Composable
-private fun ContactsAppPreview() {
-    ContactsList(contacts = DataSource().getContactsData())
-}

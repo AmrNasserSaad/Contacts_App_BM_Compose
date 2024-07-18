@@ -12,98 +12,141 @@ class DataSource {
             Contacts(
                 R.string.auntie,
                 R.string.auntie_phone,
-                R.drawable.aed,
+                R.drawable.auntie,
                 )
         )
         contact.add(
             Contacts(
                 R.string.brother,
                 R.string.brother_phone,
-                R.drawable.aq,
+                R.drawable.brother,
                 )
         )
         contact.add(
             Contacts(
                 R.string.daughter,
                 R.string.daughter_phone,
-                R.drawable.awd,
+                R.drawable.daughter,
                 )
         )
         contact.add(
             Contacts(
                 R.string.father,
                 R.string.father_phone,
-                R.drawable.d,
+                R.drawable.friend_1,
                 )
         )
         contact.add(
             Contacts(
                 R.string.grandfather,
                 R.string.grandfather_phone,
-                R.drawable.e,
+                R.drawable.grandfather,
                 )
         )
         contact.add(
             Contacts(
                 R.string.grandmother,
                 R.string.grandmother_phone,
-                R.drawable.er,
+                R.drawable.granny,
                 )
         )
         contact.add(
             Contacts(
                 R.string.sister,
                 R.string.sister_phone,
-                R.drawable.er,
+                R.drawable.son,
                 )
         )
         contact.add(
             Contacts(
                 R.string.son,
                 R.string.son_phone,
-                R.drawable.aed,
+                R.drawable.sister,
                 )
         )
         contact.add(
             Contacts(
                 R.string.uncle,
                 R.string.uncle_phone,
-                R.drawable.awd,
+                R.drawable.neigbour,
                 )
         )
         contact.add(
             Contacts(
-                R.string.auntie,
+                R.string.son,
                 R.string.auntie_phone,
-                R.drawable.aed,
+                R.drawable.uncle,
+                )
+        )
+             contact.add(
+            Contacts(
+                R.string.uncle,
+                R.string.uncle_phone,
+                R.drawable.neigbour,
                 )
         )
         contact.add(
             Contacts(
-                R.string.auntie,
+                R.string.son,
                 R.string.auntie_phone,
-                R.drawable.aed,
+                R.drawable.uncle,
+                )
+        )
+             contact.add(
+            Contacts(
+                R.string.uncle,
+                R.string.uncle_phone,
+                R.drawable.neigbour,
                 )
         )
         contact.add(
             Contacts(
-                R.string.auntie,
+                R.string.son,
                 R.string.auntie_phone,
-                R.drawable.aed,
+                R.drawable.uncle,
+                )
+        )
+             contact.add(
+            Contacts(
+                R.string.uncle,
+                R.string.uncle_phone,
+                R.drawable.neigbour,
                 )
         )
         contact.add(
             Contacts(
-                R.string.auntie,
+                R.string.son,
                 R.string.auntie_phone,
-                R.drawable.aed,
+                R.drawable.uncle,
+                )
+        )
+
+        contact.add(
+            Contacts(
+                R.string.sister,
+                R.string.auntie_phone,
+                R.drawable.granny,
                 )
         )
         contact.add(
             Contacts(
-                R.string.auntie,
+                R.string.uncle,
                 R.string.auntie_phone,
-                R.drawable.aed,
+                R.drawable.grandfather,
+                )
+        )
+        contact.add(
+            Contacts(
+                R.string.grandfather,
+                R.string.auntie_phone,
+                R.drawable.friend_1,
+                )
+        )
+        contact.add(
+            Contacts(
+                R.string.father,
+                R.string.father_phone,
+                R.drawable.auntie,
                 )
         )
 
