@@ -1,3 +1,53 @@
 <resources>
     <string name="app_name">Contacts App</string>
+
+    <string name="auntie">Auntie</string>
+    <string name="auntie_phone">+20 112 345 6789</string>
+
+    <string name="uncle">Uncle</string>
+    <string name="uncle_phone">+20 113 456 7890</string>
+
+    <string name="brother">Brother</string>
+    <string name="brother_phone">+20 114 567 8901</string>
+
+    <string name="sister">Sister</string>
+    <string name="sister_phone">+20 115 678 9012</string>
+
+    <string name="father">Father</string>
+    <string name="father_phone">+20 116 789 0123</string>
+
+    <string name="mother">Mother</string>
+    <string name="mother_phone">+20 117 890 1234</string>
+
+    <string name="grandfather">Grandfather</string>
+    <string name="grandfather_phone">+20 118 901 2345</string>
+
+    <string name="grandmother">Grandmother</string>
+    <string name="grandmother_phone">+20 119 012 3456</string>
+
+    <string name="cousin">Cousin</string>
+    <string name="cousin_phone">+20 120 123 4567</string>
+
+    <string name="nephew">Nephew</string>
+    <string name="nephew_phone">+20 121 234 5678</string>
+
+    <string name="niece">Niece</string>
+    <string name="niece_phone">+20 122 345 6789</string>
+
+    <string name="son">Son</string>
+    <string name="son_phone">+20 123 456 7890</string>
+
+    <string name="daughter">Daughter</string>
+    <string name="daughter_phone">+20 124 567 8901</string>
+
+    <string name="brother_in_law">Brother-in-law</string>
+    <string name="brother_in_law_phone">+20 125 678 9012</string>
+
+    <string name="sister_in_law">Sister-in-law</string>
+    <string name="sister_in_law_phone">+20 126 789 0123</string>
+    <string name="home_contact">+20 101234 5678</string>
+    <string name="home">+20 101234 5678</string>
+    <string name="contacts_home">Contacts Home</string>
+    <string name="contact_app">Contact App</string>
+
 </resources>
